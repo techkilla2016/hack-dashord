@@ -1,6 +1,6 @@
 import { Row, Col } from 'react-bootstrap'
 import React from 'react'
-import { main } from '../../../data/main'
+import { main } from '@/data/main'
 import { BsCalendarMonth } from 'react-icons/bs'
 import { IoLocationOutline } from 'react-icons/io5'
 import Image from 'next/image'

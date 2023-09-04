@@ -1,7 +1,7 @@
 "use client"
 import { Row, Col } from 'react-bootstrap'
 import React from 'react'
-import { building } from '../../../data/building'
+import { building } from '@/data/building'
 import { BsCalendarMonth } from 'react-icons/bs'
 import { HiMiniBuildingOffice2 } from 'react-icons/hi2'
 import Link from 'next/link'

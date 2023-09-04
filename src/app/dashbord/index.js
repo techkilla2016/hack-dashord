@@ -1,15 +1,15 @@
 "use client"
-import Header from '../Components/header'
+import Header from '@/Components/header'
 import { Container } from 'react-bootstrap'
 import { LuLayoutDashboard } from 'react-icons/lu'
-import Dashbord from '../Components/dashbord'
-import Aside from '../Components/aside'
+import Dashbord from '@/Components/dashbord'
+import Aside from '@/Components/aside'
 import { useCookies } from 'react-cookie'
 import { useRouter } from 'next/navigation'
 import { useEffect } from 'react'
 // import { db } from '../../firebaseConfig';
 // import { collection, addDoc, setDoc, getDoc, doc, updateDoc } from "firebase/firestore";
-import CityData from '../../data/city'
+import CityData from '@/data/city'
 
 export const metadata = {
     title: 'Techkilla',

@@ -1,6 +1,6 @@
 import React from 'react'
 import { MdOutlineModeEditOutline } from 'react-icons/md'
-import cityData from '../../../data/city'
+import cityData from '@/data/city'
 const CityTable = ({ city }) => {
     return (
         <div className='setting py-4'>
