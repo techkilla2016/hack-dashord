@@ -10,6 +10,8 @@ const Building = ({ city }) => {
         <Row className='py-5'>
             {
                 building?.map((curItem, keys) => {
+                    if(curItem.city == city)
+                    {
                     return (
                         <Col xxl={4} xl={4} lg={4} md={6} sm={12} xs={12} key={keys} className='mb-5 pb-4'>
                             <div className="col-inner px-3">
@@ -33,7 +35,8 @@ const Building = ({ city }) => {
                             </div>
                         </Col>
                     )
-                })
+                }})
+            
             }
         </Row >
     )

@@ -22,7 +22,7 @@ const Aside = () => {
                                 {
                                     asideMenu?.map((curItem, keys) => {
                                         return (
-                                            <Link href='/' className="list d-flex align-items-center" key={keys}>
+                                            <Link href={curItem?.link} className="list d-flex align-items-center" key={keys}>
                                                 <div className="icon">
                                                     {curItem?.icon}
                                                 </div>
@@ -38,7 +38,7 @@ const Aside = () => {
                     </div>
 
                     {/* setting  */}
-                    <div className="aside-setting">
+                    {/* <div className="aside-setting">
                         <Link href='/settings' className="list d-flex align-items-center">
                             <div className="icon">
                                 <AiFillSetting />
@@ -47,7 +47,7 @@ const Aside = () => {
                                 Settings
                             </div>
                         </Link>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </aside>

@@ -9,7 +9,7 @@ export const main = [
         bg: '#fc950b'
     },
     {
-        heading: "Bangalore",
+        heading: "Bengaluru",
         totalProject: 50,
         complated: 45,
         icon: '/Location/Bangalore.jpg',

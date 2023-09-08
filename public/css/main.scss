@@ -41,8 +41,8 @@ main {
 
         .icon-box {
             position: relative;
-            width: 100px;
-            height: 100px;
+            min-width: 100px;
+            min-height: 100px;
             // box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 
             .icon {
